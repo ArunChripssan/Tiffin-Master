@@ -1,0 +1,36 @@
+baseURL = 'https://tiffinmaster.org/'
+languageCode = 'en-us'
+title = 'Tiffin Master'
+theme = 'tiffin-master'
+
+
+[menu]
+  [[menu.main_left]]
+    name = "Home"
+    url = "/#main-slider"
+    weight = 1
+
+  [[menu.main_left]]
+    name = "Service"
+    url = "/#our-services"
+    weight = 2
+
+  [[menu.main_left]]
+    name = "Menu"
+    url = "/#our-menu"
+    weight = 3
+
+  [[menu.main_right]]
+    name = "Branches"
+    url = "/#our-branches"
+    weight = 4
+
+  [[menu.main_right]]
+    name = "Contact Us"
+    url = "/#main-footer"
+    weight = 5
+
+ 
+
+[params]
+  logo = "/images/logo-2.png"

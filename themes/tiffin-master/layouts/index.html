@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+<div class="landing-page" id="landing-page">
+        <div class="background-img">
+            <span></span>
+            <img src="/images/landing-page/bg.jpg" alt="">
+        </div>
+        <div class="landing-page-container">
+            <div class="landing-pg-about-us">
+                <h2>WE SERVE QUALITY FOOD</h2>
+                <p>Welcome to Tiffin Master, where every bite is a celebration of flavor and freshness. Explore a world of mouthwatering recipes, curated ingredients, and culinary inspiration designed to make every meal unforgettable. Let us guide your journey to delicious dining and joyful moments around the table.</p>
+            </div>
+            <div class="card-wrapper">
+            <h2>OUR BRANCHES</h2>
+            <div class="card-container">
+                <div class="india-card card wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.3s" data-wow-offset="5">
+                    <a href="india">
+                        <div class="description">
+                            <h2>India</h2>
+                            <p>View our Menu's</p>
+                        </div>
+                        <img class="card-background-img" src="images/india-bg.jpg">
+                    </a>
+                </div>
+                <div class="oman-card card">
+                    <a href="oman">
+                        <div class="description">
+                            <h2>Oman</h2>
+                            <p>View our Variety's</p>
+                        </div>
+                        <img class="card-background-img" src="images/oman-bg.jpg">
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div> 
+{{ end }}
