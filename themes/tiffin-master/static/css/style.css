@@ -828,6 +828,171 @@ video {
     }
 }
 
+.landingPage .bannerSec{
+    width: 100%;
+    min-height: 100dvh;
+    position: relative;
+    
+}
+.landingPage .bannerImageSec{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.landingPage .bannerImageSec img{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+}
+.landingPage .bannerImageSec span{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+.landingPage .bannerSec .textContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 100px;
+    flex-direction: column;
+}
+.landingPage .bannerSec .textContent h2{
+    color: #4aec5a;
+    font-size: 45px;
+    margin-block-start: 30px;
+    text-align: center;
+}
+.landingPage .bannerSec .textContent p{
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 800px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+.landingPage .bannerSec .branchSection {
+    padding-block-end: 20px;
+}
+.landingPage .bannerSec .branchSection h2 {
+    color: #4aec5a;
+    font-size: 45px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.landingPage .bannerSec .branchSection .card-container {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    padding-block: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.landingPage .bannerSec .branchSection .card-container .card {
+    position: relative;
+    max-width: 280px;
+    max-height: 420px;
+    margin-top: 30px;
+    border: 4px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.landingPage .bannerSec .branchSection .card-container .card:hover {
+    transform: scale(1.06);
+}
+
+.landingPage .bannerSec .branchSection .card-container .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.landingPage .bannerSec .branchSection .card-container .card .description{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.landingPage .bannerSec .branchSection .card-container .card .description h2 {
+    color: #fff;
+    font-size: 65px;
+    margin: 0;
+}
+
+.landingPage .bannerSec .branchSection .card-container .card .description p {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    color: #3dab48;
+}
+
+@media screen and (max-width: 769px) {
+    .landingPage .bannerSec .textContent {
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    .landingPage .bannerSec .branchSection {
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card {
+        max-width: 230px;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card .description h2 {
+        font-size: 55px;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card .description p {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 426px) {
+    .landingPage .bannerSec .textContent {
+        max-width: 395px;
+        margin-inline: auto;
+    }
+    .landingPage .bannerSec .textContent h2{
+        text-align: center;
+    }
+    .landingPage .bannerSec .branchSection {
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    .landingPage .bannerSec .branchSection .card-container {
+        justify-content: center;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card {
+        max-width: 290px;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card .description h2 {
+        font-size: 55px;
+    }
+    .landingPage .bannerSec .branchSection .card-container .card .description p {
+        font-size: 18px;
+    }
+    
+}
+
 /*** 
 
 ====================================================================
